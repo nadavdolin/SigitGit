@@ -1,3 +1,4 @@
+#Ex2A: Print a sum of numbers
 def Ex2A():
     sum=0
     number=input('Please enter a number \n')
@@ -6,6 +7,7 @@ def Ex2A():
         number = input('Please enter a number \n')
     print('the sum of the number is: ' +str(sum))
 
+#Ex2B: Print a sum of numbers in array
 def Ex2B():
     sum=0
     number=' 1 , 2 , 3 , 4 '
