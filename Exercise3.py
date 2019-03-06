@@ -1,7 +1,8 @@
 
 def check_for_winner(board):
+    #Check who is the winner(1 or 2)
     for c in range(0, 3):
-        #check 1
+        #check 1 winner
         if board[c][0] == 1 and board[c][1] == 1 and board[c][2] == 1:
             return 1
         elif board[0][c] == 1 and board[1][c] == 1 and board[2][c] == 1:
@@ -10,7 +11,7 @@ def check_for_winner(board):
             return 1
         elif board[0][2] == 1 and board[1][1] == 1 and board[2][0] == 1:
             return 1
-        #check 2
+        #check 2 winner
         elif board[c][0] == 2 and board[c][1] == 2 and board[c][2] == 2:
             return 2
         elif board[0][c] == 2 and board[1][c] == 2 and board[2][c] == 2:
