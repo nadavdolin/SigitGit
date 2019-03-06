@@ -1,10 +1,12 @@
+#Make the func of each one
 def Mapfunc(func,f):
-    new_array=list()
+    Answer=list()
     for i in f:
         x=func(i)
-        new_array.append(str(x))
+        Answer.append(str(x))
 
-    return new_array
+    #return the answers
+    return Answer
 
 
 def multi(x):
